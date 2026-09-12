@@ -1,0 +1,365 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Expense Tracker: Money Manager – Mahant Krupa Technologies</title>
+
+<meta name="description"
+      content="Expense Tracker: Money Manager helps you manage income, expenses, categories, receipts, reports, and financial records with optional Google Drive backup.">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.7;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #444;
+}
+
+.hero {
+    background: linear-gradient(135deg, #1a73e8, #3b82f6);
+    color: #fff;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0 0 12px;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+    opacity: 0.95;
+}
+
+.container {
+    max-width: 900px;
+    margin: 35px auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+h2 {
+    margin-top: 35px;
+    color: #1a73e8;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 7px;
+}
+
+h3 {
+    color: #333;
+    margin-top: 25px;
+}
+
+p,
+li {
+    color: #555;
+}
+
+ul {
+    margin-left: 20px;
+    padding-left: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-top: 25px;
+}
+
+.feature {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 22px;
+}
+
+.feature h3 {
+    margin-top: 0;
+    color: #1a73e8;
+}
+
+.feature p {
+    margin-bottom: 0;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.links a {
+    display: inline-block;
+    text-decoration: none;
+    background: #1a73e8;
+    color: #fff;
+    padding: 11px 20px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.links a:hover {
+    background: #1557b0;
+}
+
+.contact {
+    background: #f8fafc;
+    padding: 22px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.contact a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 25px 15px;
+    font-size: 14px;
+    color: #777;
+}
+
+@media (max-width: 650px) {
+
+    .hero {
+        padding: 50px 18px;
+    }
+
+    .hero h1 {
+        font-size: 31px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .container {
+        margin: 15px;
+        padding: 25px;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+    <h1>Expense Tracker: Money Manager</h1>
+
+    <p>
+        A simple and convenient way to manage your income, expenses,
+        categories, receipts, and personal financial records.
+    </p>
+
+</section>
+
+
+<div class="container">
+
+    <h2>About the App</h2>
+
+    <p>
+        <strong>Expense Tracker: Money Manager</strong> is an Android
+        application developed by <strong>Mahant Krupa Technologies</strong>
+        to help users organize and manage their personal financial records.
+    </p>
+
+    <p>
+        The application is designed to make everyday expense and income
+        management simple, convenient, and easy to understand.
+    </p>
+
+
+    <h2>Key Features</h2>
+
+    <div class="features">
+
+        <div class="feature">
+            <h3>Income Management</h3>
+            <p>
+                Record and manage your income transactions in an organized
+                way.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>Expense Tracking</h3>
+            <p>
+                Track your daily expenses and organize them using categories.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>Categories</h3>
+            <p>
+                Manage expense and income categories according to your needs.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>Receipt Images</h3>
+            <p>
+                Optionally attach receipt images to supported transactions
+                for easier record keeping.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>Reports & Charts</h3>
+            <p>
+                View your financial information through useful summaries,
+                reports, and visual charts.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>Google Drive Backup</h3>
+            <p>
+                Optionally back up and restore supported application data
+                using your Google Drive account.
+            </p>
+        </div>
+
+    </div>
+
+
+    <h2>Privacy & Data</h2>
+
+    <p>
+        Your financial records are primarily stored locally on your device.
+        The application does not intentionally use your financial records
+        for advertising personalization.
+    </p>
+
+    <p>
+        Optional services such as Google Sign-In, Google Drive Backup,
+        Firebase services, and Google AdMob may process information as
+        described in our Privacy Policy.
+    </p>
+
+    <div class="links">
+
+        <a href="https://mahantkrupa.github.io/PrivacyPolicy/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Privacy Policy
+        </a>
+
+    </div>
+
+
+    <h2>Google Drive Backup</h2>
+
+    <p>
+        Google Drive Backup is an optional feature. If you choose to use it,
+        the application may upload supported backup data to your Google Drive
+        account and access that backup when you choose to restore your data.
+    </p>
+
+    <p>
+        Your Google Drive data remains associated with your Google account
+        and is subject to Google's applicable policies and settings.
+    </p>
+
+
+    <h2>Advertising</h2>
+
+    <p>
+        The application may display advertisements provided by Google AdMob.
+        Depending on the application configuration, advertisements may
+        include banner, native, interstitial, and app open advertisements.
+    </p>
+
+    <p>
+        Advertising and privacy practices are described in detail in our
+        Privacy Policy.
+    </p>
+
+
+    <h2>Developer</h2>
+
+    <p>
+        <strong>Mahant Krupa Technologies</strong>
+    </p>
+
+    <p>
+        Developer of Expense Tracker: Money Manager.
+    </p>
+
+
+    <div class="contact">
+
+        <h3>Contact Us</h3>
+
+        <p>
+            If you have questions about the application, privacy,
+            data handling, or Google Drive Backup, please contact us.
+        </p>
+
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:info.mahantkrupa@gmail.com">
+                info.mahantkrupa@gmail.com
+            </a>
+        </p>
+
+    </div>
+
+
+    <h2>Important Links</h2>
+
+    <div class="links">
+
+        <a href="https://mahantkrupa.github.io/PrivacyPolicy/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Privacy Policy
+        </a>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    © 2026 Mahant Krupa Technologies. All rights reserved.
+
+</footer>
+
+</body>
+</html>
+```
